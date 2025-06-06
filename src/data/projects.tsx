@@ -282,7 +282,7 @@ const projects: Project[] = [
     id: "couponluxury",
     category: "Resteruant",
     title: "codingducks Website",
-    src: "/assets/projects-screenshots/codingducks/codingducks.webp",
+    src: "/assets/projects-screenshots/codingducks/food.webp",
     screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png"],
     live: "https://github.com/sengtri457/BreadShop",
     skills: {
