@@ -281,8 +281,8 @@ const projects: Project[] = [
   {
     id: "couponluxury",
     category: "Resteruant",
-    title: "Food Website",
-    src: "/assets/projects-screenshots/Food/food.webp",
+    title: "codingducks Website",
+    src: "/assets/projects-screenshots/codingducks/codingducks.webp",
     screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png"],
     live: "https://github.com/sengtri457/BreadShop",
     skills: {
@@ -310,7 +310,7 @@ const projects: Project[] = [
             CouponLuxury&apos;s got you covered.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/food.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/food.webp`]} />
         </div>
       );
     },
@@ -319,7 +319,7 @@ const projects: Project[] = [
     id: "the-booking-desk",
     category: "Coffee Shop",
     title: "The Coffee Shop",
-    src: "/assets/projects-screenshots/Food/coffee-.webp",
+    src: "/assets/projects-screenshots/codingducks/coffee-.webp",
     screenshots: ["1.png"],
     live: "https://github.com/sengtri457/CoffeeKtri.github.io",
     skills: {
@@ -341,7 +341,7 @@ const projects: Project[] = [
             a breeze—it&apos;s almost as if the destinations are calling you.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/coffee-.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/coffee-.webp`]} />
         </div>
       );
     },
@@ -350,7 +350,7 @@ const projects: Project[] = [
     id: "portfolio",
     category: "Bakery",
     title: "My Baker",
-    src: "/assets/projects-screenshots/Food/bakery.webp",
+    src: "/assets/projects-screenshots/codingducks/bakery.webp",
     screenshots: ["1.png"],
     live: "https://github.com/sengtri457/BreadShop",
     github: "https://github.com/sengtri457/BreadShop",
@@ -377,7 +377,7 @@ const projects: Project[] = [
           <TypographyH3 className="my-4 mt-8">
             Beautiful 3D Objects{" "}
           </TypographyH3>
-          <SlideShow images={[`${BASE_PATH}/Food/bakery.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/bakery.webp`]} />
         </div>
       );
     },
@@ -386,7 +386,7 @@ const projects: Project[] = [
     id: "ghostchat",
     category: "Car Wash",
     title: "Cars",
-    src: "/assets/projects-screenshots/Food/car.webp",
+    src: "/assets/projects-screenshots/codingducks/car.webp",
     screenshots: ["1.png", "2.png", "3.png", "4.png"],
     live: "https://github.com/sengtri457/CarShop",
     github: "https://github.com/sengtri457/CarShop",
@@ -406,7 +406,7 @@ const projects: Project[] = [
             without the worry.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/car.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/car.webp`]} />
         </div>
       );
     },
@@ -415,7 +415,7 @@ const projects: Project[] = [
     id: "jra",
     category: "Pure Water",
     title: "Water Life",
-    src: "/assets/projects-screenshots/Food/drinking.webp",
+    src: "/assets/projects-screenshots/codingducks/drinking.webp",
     screenshots: ["1.png"],
     live: "https://github.com/sengtri457/WaterShop",
     skills: {
@@ -438,7 +438,7 @@ const projects: Project[] = [
             faster and more efficient. Here&apos;s what made it stand out:
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/drinking.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/drinking.webp`]} />
         </div>
       );
     },
@@ -447,7 +447,7 @@ const projects: Project[] = [
     id: "ai",
     category: "Artificul Interlegence",
     title: "AI assist",
-    src: "/assets/projects-screenshots/Food/ai.webp",
+    src: "/assets/projects-screenshots/codingducks/ai.webp",
     screenshots: ["1.png"],
     live: "https://github.com/sengtri457/AI",
     skills: {
@@ -470,7 +470,7 @@ const projects: Project[] = [
             faster and more efficient. Here&apos;s what made it stand out:
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/ai.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/ai.webp`]} />
         </div>
       );
     },
@@ -479,7 +479,7 @@ const projects: Project[] = [
     id: "Consultan",
     category: "Consultansy",
     title: "Consultan",
-    src: "/assets/projects-screenshots/Food/consultancy.webp",
+    src: "/assets/projects-screenshots/codingducks/consultancy.webp",
     screenshots: ["1.png"],
     live: "https://github.com/sengtri457/bussnieus.github.io",
     skills: {
@@ -502,7 +502,7 @@ const projects: Project[] = [
             faster and more efficient. Here&apos;s what made it stand out:
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/consultancy.webp`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/consultancy.webp`]} />
         </div>
       );
     },
@@ -511,7 +511,7 @@ const projects: Project[] = [
     id: "Ecormmerce",
     category: "Ecormmerce",
     title: "Phsar Materk",
-    src: "/assets/projects-screenshots/Food/Ecomerce.png",
+    src: "/assets/projects-screenshots/codingducks/Ecomerce.png",
     screenshots: ["1.png"],
     live: "ecommerce-js-ktri.vercel.app",
     skills: {
@@ -534,7 +534,7 @@ const projects: Project[] = [
             your door.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/Ecomerce.png`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/Ecomerce.png`]} />
           <TypographyH3 className="my-4 mt-8">
             Seamless Shopping Experience
           </TypographyH3>
@@ -574,7 +574,7 @@ const projects: Project[] = [
     id: "Education",
     category: "Education",
     title: "Code Master",
-    src: "/assets/projects-screenshots/Food/CodeMaster.png",
+    src: "/assets/projects-screenshots/codingducks/CodeMaster.png",
     screenshots: ["1.png"],
     live: "web-team-ktri.vercel.app",
     skills: {
@@ -594,7 +594,7 @@ const projects: Project[] = [
             goals.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/CodeMaster.png`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/CodeMaster.png`]} />
           <TypographyH3 className="my-4 mt-8">
             Effortless Learning Access
           </TypographyH3>
@@ -658,7 +658,7 @@ const projects: Project[] = [
     id: "Knowlauge",
     category: "Knowlauge",
     title: "Aupp Uni Clone",
-    src: "/assets/projects-screenshots/Food/aupp.png",
+    src: "/assets/projects-screenshots/codingducks/aupp.png",
     screenshots: ["1.png"],
     live: "aupp-clone.vercel.app",
     skills: {
@@ -680,7 +680,7 @@ const projects: Project[] = [
             services that will complement academic offerings.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/Food/aupp.png`]} />
+          <SlideShow images={[`${BASE_PATH}/codingducks/aupp.png`]} />
           <TypographyH3 className="my-4 mt-8">
             Effortless Learning Access
           </TypographyH3>
