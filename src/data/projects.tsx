@@ -238,8 +238,8 @@ const projects: Project[] = [
   {
     id: "codingducks",
     category: "Coding platform",
-    title: "Coding Ducks",
-    src: "/assets/projects-screenshots/codingducks/landing.png",
+    title: "Hosipital",
+    src: "/assets/projects-screenshots/codingducks/hospital.webp",
     screenshots: ["landing.png"],
     skills: {
       frontend: [
@@ -258,92 +258,33 @@ const projects: Project[] = [
         PROJECT_SKILLS.sockerio,
       ],
     },
-    live: "https://www.codingducks.xyz/",
-    github: "https://github.com/Naresh-Khatri/Coding-Ducks",
+    live: "https://github.com/sengtri457/hospital",
+    github: "https://github.com/sengtri457/hospital",
     get content() {
       return (
         <div>
           <TypographyP className="font-mono text-2xl text-center">
-            Coding ducks = LeetCode + CodePen + CSS Battles
+            Hospital = Html + CSS Battles
           </TypographyP>
           <TypographyP className="font-mono ">
-            Coding Ducks is your coding dojo — where you level up your skills,
+            Hospital is your coding dojo — where you level up your skills,
             battle in real-time code duels, and earn badges like a true code
             warrior. Track your progress, flex your brain, and climb the
             leaderboard. Ready to quack the code?
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Problems </TypographyH3>
-          <p className="font-mono mb-2">
-            Solve coding problems similar to LeetCode, enhancing your
-            problem-solving skills across various languages.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/codingducks/problems.png`,
-              `${BASE_PATH}/codingducks/problem.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Ducklets</TypographyH3>
-          <p className="font-mono mb-2">
-            Collaborate in real-time with others in a multiplayer coding
-            environment, just like CodePen but with a social twist.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/codingducks/ducklets.png`,
-              `${BASE_PATH}/codingducks/ducklet1.png`,
-              `${BASE_PATH}/codingducks/ducklet2.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">UI Battles </TypographyH3>
-
-          <p className="font-mono mb-2">
-            Challenge yourself to create UI components with HTML/CSS/JS, and get
-            instant feedback with an automated similarity scoring.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/codingducks/css-battles.png`,
-              `${BASE_PATH}/codingducks/css-battle.png`,
-              `${BASE_PATH}/codingducks/css-battle2.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Contests </TypographyH3>
-          <p className="font-mono mb-2">
-            Organize or participate in coding competitions. Successfully used to
-            host three contests during college.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/codingducks/contests.png`]} />
-          <TypographyH3 className="my-4 mt-8">Playground </TypographyH3>
-          <p className="font-mono mb-2">
-            Test and execute your code instantly in my versatile online code
-            runner.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/codingducks/playground.png`]} />
-          <TypographyH3 className="my-4 mt-8">Users</TypographyH3>
-
-          <p className="font-mono mb-2">
-            Track your progress, earn badges, and climb the rankings with
-            detailed user profiles and activity tracking.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/codingducks/users.png`,
-              `${BASE_PATH}/codingducks/user.png`,
-            ]}
-          />
+          <SlideShow images={[`${BASE_PATH}/codingducks/hospital.webp`]} />
         </div>
       );
     },
   },
   {
     id: "couponluxury",
-    category: "Coupon site",
-    title: "Coupon Luxury",
-    src: "/assets/projects-screenshots/couponluxury/landing.png",
+    category: "Resteruant",
+    title: "Food Website",
+    src: "/assets/projects-screenshots/Food/food.webp",
     screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png"],
-    live: "https://www.couponluxury.com/",
+    live: "https://github.com/sengtri457/BreadShop",
     skills: {
       frontend: [
         PROJECT_SKILLS.js,
@@ -369,72 +310,18 @@ const projects: Project[] = [
             CouponLuxury&apos;s got you covered.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <p className="font-mono mb-2 mt-4">
-            As soon as you land, boom! You&apos;re greeted with the freshest
-            coupons and top-tier deals that&apos;ll make your wallet happy.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/couponluxury/landing.png`]} />
-          <TypographyH3 className="my-4 ">Stores</TypographyH3>
-          <p className="font-mono mb-2">
-            Dive into a comprehensive list of stores, each packed with exclusive
-            deals and discounts. It&apos;s like having a VIP pass to every sale
-            in town.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/couponluxury/stores.png`,
-              `${BASE_PATH}/couponluxury/store.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Categories</TypographyH3>
-
-          <p className="font-mono mb-2">
-            Whatever you&apos;re into—fashion, tech, food—you&apos;ll find it
-            neatly organized here. No more endless scrolling; just pick a
-            category and get the best offers instantly.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/couponluxury/categories.png`]} />
-          <TypographyH3 className="my-4 mt-8">Custom CMS </TypographyH3>
-          <p className="font-mono mb-2">
-            Powered by Vue.js, this bad boy allows us to keep the content
-            dynamic and up-to-date. From flash sales to limited-time offers, my
-            CMS ensures everything&apos;s live and relevant.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/couponluxury/cms-1.png`,
-              `${BASE_PATH}/couponluxury/cms-2.png`,
-            ]}
-          />
-          <p className="font-mono mb-2 mt-5">
-            Plus, I&apos;ve sprinkled in some extra magic like personalized
-            deal recommendations, user-friendly search features, and a sleek,
-            responsive design that works like a charm on any device.
-          </p>
-          <p className="font-mono mb-2">
-            CouponLuxury isn&apos;t just a website; it&apos;s your personal deal-hunting
-            assistant, ensuring you never miss out on a bargain!
-          </p>
-          {/* <TypographyP className="my-4 mt-8">
-          <strong>Misc:</strong>
-          Hosted not one, not two, but THREE coding contests (Codemacha) during
-          college. Safe to say, Coding Ducks passed the vibe check.
-        </TypographyP>
-        <TypographyP className="my-4 mt-8">
-          <strong>Target Audience:</strong>
-          For all the novice coders out there ready to make their mark.
-        </TypographyP> */}
+          <SlideShow images={[`${BASE_PATH}/Food/food.webp`]} />
         </div>
       );
     },
   },
   {
     id: "the-booking-desk",
-    category: "Travel",
-    title: "The Booking Desk",
-    src: "/assets/projects-screenshots/the-booking-desk/landing.png",
+    category: "Coffee Shop",
+    title: "The Coffee Shop",
+    src: "/assets/projects-screenshots/Food/coffee-.webp",
     screenshots: ["1.png"],
-    live: "https://thebookingdesk.com/",
+    live: "https://github.com/sengtri457/CoffeeKtri.github.io",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -454,54 +341,19 @@ const projects: Project[] = [
             a breeze—it&apos;s almost as if the destinations are calling you.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <p className="font-mono mb-2 mt-8">
-            A sleek, modern interface greets you, featuring the latest travel
-            tips, deals, and must-visit spots around the globe.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/the-booking-desk/landing.png`]} />
-          <TypographyH3 className="my-4 mt-8">Blogs</TypographyH3>
-          <p className="font-mono mb-2">
-            Dive into the curated articles written by travel experts. Whether
-            you&apos;re looking for hidden gems or travel hacks, our blog section has
-            you covered.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/the-booking-desk/blogs.png`,
-              `${BASE_PATH}/the-booking-desk/blog.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Sanity CMS</TypographyH3>
-
-          <p className="font-mono mb-2">
-            Keeping everything fresh and up-to-date, I&apos;ve integrated Sanity CMS
-            to manage all the content with ease, ensuring you always get the
-            latest and greatest information.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/the-booking-desk/cms-1.png`,
-              `${BASE_PATH}/the-booking-desk/cms-2.png`,
-            ]}
-          />
-          <p className="font-mono mb-2 my-8">
-            With a stunning 100% score on Lighthouse, The Booking Desk isn&apos;t
-            just beautiful—it&apos;s built to perform. Whether you&apos;re planning your
-            next adventure or just daydreaming, our site delivers a top-notch
-            experience that&apos;s both informative and enjoyable.
-          </p>
+          <SlideShow images={[`${BASE_PATH}/Food/coffee-.webp`]} />
         </div>
       );
     },
   },
   {
     id: "portfolio",
-    category: "Portfolio",
-    title: "My Portfolio",
-    src: "/assets/projects-screenshots/portfolio/landing.png",
+    category: "Bakery",
+    title: "My Baker",
+    src: "/assets/projects-screenshots/Food/bakery.webp",
     screenshots: ["1.png"],
-    live: "http://nareshkhatri.vercel.app",
-    github:"https://github.com/Naresh-Khatri/Portfolio",
+    live: "https://github.com/sengtri457/BreadShop",
+    github: "https://github.com/sengtri457/BreadShop",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -525,49 +377,19 @@ const projects: Project[] = [
           <TypographyH3 className="my-4 mt-8">
             Beautiful 3D Objects{" "}
           </TypographyH3>
-          <p className="font-mono mb-2">
-            Did you see that 3D keyboard modal? Yeah! I made that. That
-            interactive keyboard is being rendered in 3D on a webpage 🤯, and
-            pressing each keycap reveals a skill in a goofy way. It&apos;s like
-            typing, but make it art.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/portfolio/landing.png`,
-              `${BASE_PATH}/portfolio/skills.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
-          <p className="font-mono mb-2">
-            Dark background + floating particles = out-of-this-world cool.
-          </p>
-          <SlideShow images={[`${BASE_PATH}/portfolio/navbar.png`]} />
-          <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
-
-          <p className="font-mono mb-2">
-            My top personal and freelance projects — no filler, all killer.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/portfolio/projects.png`,
-              `${BASE_PATH}/portfolio/project.png`,
-            ]}
-          />
-          <p className="font-mono mb-2 mt-8 text-center">
-            This site&apos;s not just a portfolio — it&apos;s a whole vibe.
-          </p>
+          <SlideShow images={[`${BASE_PATH}/Food/bakery.webp`]} />
         </div>
       );
     },
   },
   {
     id: "ghostchat",
-    category: "Anonymous chat",
-    title: "GhostChat",
-    src: "/assets/projects-screenshots/ghostchat/1.png",
+    category: "Car Wash",
+    title: "Cars",
+    src: "/assets/projects-screenshots/Food/car.webp",
     screenshots: ["1.png", "2.png", "3.png", "4.png"],
-    live: "https://ghostchat.vercel.app",
-    github:"https://github.com/Naresh-Khatri/GhostChat",
+    live: "https://github.com/sengtri457/CarShop",
+    github: "https://github.com/sengtri457/CarShop",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.chakra],
       backend: [PROJECT_SKILLS.supabase],
@@ -577,32 +399,25 @@ const projects: Project[] = [
         <div>
           <TypographyP className="font-mono ">
             Ghostchat is your go-to spot for sending anonymous messages without
-            leaving a trace. Powered by Supabase, it&apos;s all about keeping things
-            low-key and secure. Whether you&apos;re sharing secrets, giving feedback,
-            or just having some fun, Ghostchat ensures your identity stays
-            hidden, while your voice is heard. Say what you want, without the
-            worry.
+            leaving a trace. Powered by Supabase, it&apos;s all about keeping
+            things low-key and secure. Whether you&apos;re sharing secrets,
+            giving feedback, or just having some fun, Ghostchat ensures your
+            identity stays hidden, while your voice is heard. Say what you want,
+            without the worry.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `${BASE_PATH}/ghostchat/1.png`,
-              `${BASE_PATH}/ghostchat/2.png`,
-              `${BASE_PATH}/ghostchat/3.png`,
-              `${BASE_PATH}/ghostchat/4.png`,
-            ]}
-          />
+          <SlideShow images={[`${BASE_PATH}/Food/car.webp`]} />
         </div>
       );
     },
   },
   {
     id: "jra",
-    category: "Result analyzer",
-    title: "JNTUA Results Analyzer",
-    src: "/assets/projects-screenshots/jra/1.png",
+    category: "Pure Water",
+    title: "Water Life",
+    src: "/assets/projects-screenshots/Food/drinking.webp",
     screenshots: ["1.png"],
-    live: "https://naresh-khatri.github.io/JNTUA-result-analyser-spa/#/",
+    live: "https://github.com/sengtri457/WaterShop",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
       backend: [
@@ -623,74 +438,302 @@ const projects: Project[] = [
             faster and more efficient. Here&apos;s what made it stand out:
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow images={[`${BASE_PATH}/jra/1.png`]} />
+          <SlideShow images={[`${BASE_PATH}/Food/drinking.webp`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "ai",
+    category: "Artificul Interlegence",
+    title: "AI assist",
+    src: "/assets/projects-screenshots/Food/ai.webp",
+    screenshots: ["1.png"],
+    live: "https://github.com/sengtri457/AI",
+    skills: {
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            JNTUA Results Analyzer was a revolutionary tool designed to simplify
+            and enhance the experience of accessing academic results. It served
+            as a powerful proxy between the JNTUA university results website and
+            its users, offering a range of features that made result analysis
+            faster and more efficient. Here&apos;s what made it stand out:
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/Food/ai.webp`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "Consultan",
+    category: "Consultansy",
+    title: "Consultan",
+    src: "/assets/projects-screenshots/Food/consultancy.webp",
+    screenshots: ["1.png"],
+    live: "https://github.com/sengtri457/bussnieus.github.io",
+    skills: {
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            JNTUA Results Analyzer was a revolutionary tool designed to simplify
+            and enhance the experience of accessing academic results. It served
+            as a powerful proxy between the JNTUA university results website and
+            its users, offering a range of features that made result analysis
+            faster and more efficient. Here&apos;s what made it stand out:
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/Food/consultancy.webp`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "Ecormmerce",
+    category: "Ecormmerce",
+    title: "Phsar Materk",
+    src: "/assets/projects-screenshots/Food/Ecomerce.png",
+    screenshots: ["1.png"],
+    live: "ecommerce-js-ktri.vercel.app",
+    skills: {
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Discover the latest trends in fashion at [Your Store Name]. From
+            casual wear to formal styles, our collection offers affordable,
+            high-quality clothing and accessories for every occasion. Shop with
+            confidence, express your style, and enjoy fast delivery right to
+            your door.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/Food/Ecomerce.png`]} />
           <TypographyH3 className="my-4 mt-8">
-            Effortless Results Retrieval
+            Seamless Shopping Experience
           </TypographyH3>
-          {/* Effortless Results Retrieval: */}
           <ul className="list-disc ml-6">
             <li className="font-mono">
-              Search all your results using a single roll number, eliminating
-              the tedious task of sifting through thousands of rows on the
-              official site.
-            </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Class-Wise Results:</TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              class-wise results effortlessly by entering a roll number range.
-              No more manual searches or filtering.
-            </li>
-          </ul>
-          <TypographyH3 className="my-4 mt-8">Faculty Features:</TypographyH3>
-          <ul className="list-disc ml-6">
-            <li className="font-mono">
-              Faculty members could download batch results in Excel format,
-              making administrative tasks a breeze.
+              Browse, select, and purchase your favorite products with just a
+              few clicks — no clutter, no confusion. Optimized for mobile,
+              tablet, and desktop for smooth browsing on any device.
             </li>
           </ul>
           <TypographyH3 className="my-4 mt-8">
-            Enhanced Data Insights:
+            Smart Product Filtering::
+          </TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Instantly narrow down your search by size, color, price, or
+              category — no more scrolling through endless pages. Personalized
+              suggestions tailored to your shopping behavior.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">
+            Seller & Admin Tools:
+          </TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Vendors can easily manage inventory, update listings, and track
+              orders in real-time through a user-friendly dashboard. Export
+              product reports and sales summaries in Excel for fast accounting
+              and analytics.
+            </li>
+          </ul>
+        </div>
+      );
+    },
+  },
+  {
+    id: "Education",
+    category: "Education",
+    title: "Code Master",
+    src: "/assets/projects-screenshots/Food/CodeMaster.png",
+    screenshots: ["1.png"],
+    live: "web-team-ktri.vercel.app",
+    skills: {
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            We are the best at fulfilling your potential and achieving your
+            goals.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/Food/CodeMaster.png`]} />
+          <TypographyH3 className="my-4 mt-8">
+            Effortless Learning Access
+          </TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Instantly access courses, assignments, and learning materials from
+              one centralized dashboard — no more searching through scattered
+              links or documents. Mobile-friendly and optimized for learning on
+              the go.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">
+            Course & Content Organization:
+          </TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Browse subjects, lectures, and resources by semester, topic, or
+              instructor. Save your progress and easily pick up where you left
+              off.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">Faculty Tools:</TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Teachers can upload materials, manage assignments, and evaluate
+              students from an intuitive panel. Export gradebooks and student
+              performance in Excel format for quick administrative work.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">
+            Advanced Learning Insights:
           </TypographyH3>
           <ul className="list-disc ml-6">
             <li className="font-mono">
               Each result came with additional features including:
               <ul className="list-disc font-mono ml-6">
                 <li>
-                  <strong>CGPA Calculations: </strong>Easily track your
-                  cumulative grade point average.
+                  <strong>Progress Tracking:</strong>
+                  See completion rates and time spent per module.
                 </li>
                 <li>
-                  <strong>Charts:</strong> Visualize your academic performance
-                  with comprehensive charts.
+                  <strong>Grade Analytics:</strong> Visualize performance trends
+                  across subjects.
                 </li>
                 <li>
-                  <strong>Future Projections:</strong> Get insights into
-                  potential future outcomes based on current performance.
+                  <strong>Goal Projections:</strong> Get AI-powered insights on
+                  future academic outcomes.
                 </li>
                 <li>
-                  <strong> Backlog Counts: </strong>Keep track of your backlog
-                  subjects at a glance.
+                  <strong> Skill Mapping: </strong>Identify strengths and areas
+                  for improvement instantly.
                 </li>
               </ul>
             </li>
           </ul>
-          <TypographyH3 className="my-4 mt-8">Performance:</TypographyH3>
+        </div>
+      );
+    },
+  },
+  {
+    id: "Knowlauge",
+    category: "Knowlauge",
+    title: "Aupp Uni Clone",
+    src: "/assets/projects-screenshots/Food/aupp.png",
+    screenshots: ["1.png"],
+    live: "aupp-clone.vercel.app",
+    skills: {
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
+      backend: [
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.mongo,
+        PROJECT_SKILLS.express,
+        PROJECT_SKILLS.docker,
+      ],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            AUPP’s new modern facility has been designed to enhance and support
+            a model academic teaching and learning environment, incorporating
+            the newest technologies, a learning center, a library, and student
+            services that will complement academic offerings.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/Food/aupp.png`]} />
+          <TypographyH3 className="my-4 mt-8">
+            Effortless Learning Access
+          </TypographyH3>
           <ul className="list-disc ml-6">
             <li className="font-mono">
-              The application was significantly faster and more efficient than
-              the official site, providing a smoother user experience.
+              Instantly access courses, assignments, and learning materials from
+              one centralized dashboard — no more searching through scattered
+              links or documents. Mobile-friendly and optimized for learning on
+              the go.
             </li>
           </ul>
-          <TypographyH3 className="my-4 mt-8">Downfall:</TypographyH3>
+          <TypographyH3 className="my-4 mt-8">
+            Course & Content Organization:
+          </TypographyH3>
           <ul className="list-disc ml-6">
             <li className="font-mono">
-              Unfortunately, as of May 2022, the tool stopped working due to the
-              introduction of CAPTCHA on the official JNTUA results site, which
-              disrupted the seamless functionality of the app. JNTUA Results
-              Analyzer transformed the way students and faculty interacted with
-              academic results, making it a must-have tool until its unexpected
-              shutdown.
+              Browse subjects, lectures, and resources by semester, topic, or
+              instructor. Save your progress and easily pick up where you left
+              off.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">Faculty Tools:</TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Teachers can upload materials, manage assignments, and evaluate
+              students from an intuitive panel. Export gradebooks and student
+              performance in Excel format for quick administrative work.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">
+            Advanced Learning Insights:
+          </TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">
+              Each result came with additional features including:
+              <ul className="list-disc font-mono ml-6">
+                <li>
+                  <strong>Progress Tracking:</strong>
+                  See completion rates and time spent per module.
+                </li>
+                <li>
+                  <strong>Grade Analytics:</strong> Visualize performance trends
+                  across subjects.
+                </li>
+                <li>
+                  <strong>Goal Projections:</strong> Get AI-powered insights on
+                  future academic outcomes.
+                </li>
+                <li>
+                  <strong> Skill Mapping: </strong>Identify strengths and areas
+                  for improvement instantly.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
