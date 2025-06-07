@@ -513,7 +513,7 @@ const projects: Project[] = [
     title: "Phsar Materk",
     src: "/assets/projects-screenshots/codingducks/Ecomerce.png",
     screenshots: ["1.png"],
-    live: "ecommerce-js-ktri.vercel.app",
+    live: "https://ecommerce-js-ktri.vercel.app/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
       backend: [
@@ -576,7 +576,7 @@ const projects: Project[] = [
     title: "Code Master",
     src: "/assets/projects-screenshots/codingducks/CodeMaster.png",
     screenshots: ["1.png"],
-    live: "web-team-ktri.vercel.app",
+    live: "https://web-team-ktri.vercel.app/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
       backend: [
@@ -660,7 +660,7 @@ const projects: Project[] = [
     title: "Aupp Uni Clone",
     src: "/assets/projects-screenshots/codingducks/aupp.png",
     screenshots: ["1.png"],
-    live: "aupp-clone.vercel.app",
+    live: "https://aupp-clone.vercel.app/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.vue],
       backend: [
